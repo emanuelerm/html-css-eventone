@@ -1,0 +1,115 @@
+    /* GENERAL */
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.eo-primary {
+    color: #AB05F2;
+}
+
+.eo-bg-primary {
+    background-color: #AB05F2;
+}
+
+.eo-secondary {
+    color: #36D99D;
+}
+
+.eo-bg-secondary {
+    background-color: #36D99D;
+}
+
+.eo-neutral {
+    color: #F2F2F2;
+}
+
+.eo-bg-dark {
+    background-color: #262626;
+}
+
+    /* NAV */
+header {
+    background-color: #26262696;
+}
+
+.img-container {
+    width: 3rem;
+}
+
+.letter-spacing {
+    letter-spacing: 0.3rem;
+}
+
+    /* HERO */
+#hero {
+    background-image: linear-gradient(to right, #000000, #26262657 40%, #26262600), url("../img/ticket-one-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 8rem;
+    color: #36D99D;
+    background: linear-gradient(90deg, #36D99D 30%, #FFFFFF 55%, #AB05F2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: -0.65rem;
+}
+
+#hero button a {
+    width: 18rem;
+}
+
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+}
+
+.border-gradient-button {
+    border-image-source: linear-gradient(to right, #36D99D, #FFFFFF);
+}
+
+.border-gradient-p-right {
+    border-image-source: linear-gradient(to right, #AB05F2 30%, #262626 50%);
+}
+
+.border-gradient-p-left {
+    border-image-source: linear-gradient(to left, #AB05F2 30%, #262626 50%);
+    margin-top: 12rem;
+}
+
+.p-description {
+    margin-top: 5rem;
+}
+
+.last-section {
+    padding-bottom: 7rem;
+}
+
+.img-absolute {
+    border-top: 10px solid #36D99D;
+    border-left:  10px solid #36D99D;
+    border-bottom:  10px solid #36D99D;
+    width: 40rem;
+    height: 25rem;
+    right: 0;
+    top: 5rem;
+}
+
+.img-absolute-due {
+    border-top: 10px solid #36D99D;
+    border-right:  10px solid #36D99D;
+    border-bottom:  10px solid #36D99D;
+    width: 40rem;
+    height: 25rem;
+    left: 0;
+    top: 35rem;
+}
+
+.copyright {
+    width: 14rem;
+    text-align: right;
+}
